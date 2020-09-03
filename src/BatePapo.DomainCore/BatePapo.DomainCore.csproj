@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Bus\IMediatorHandler.cs~RF521eaea.TMP" />
+    <None Remove="DomainObjects\ValidateObject.cs~RFf919ca6.TMP" />
+    <None Remove="Interfaces\IRepository.cs~RF12cc512f.TMP" />
+    <None Remove="Interfaces\IUnitOfWork.cs~RFf73f96e.TMP" />
+    <None Remove="ValueObjects\Document.cs~RF45d98cc.TMP" />
+    <None Remove="ValueObjects\Document.cs~RF46367fa.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="9.2.0" />
+    <PackageReference Include="MediatR" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BatePapo.CrossCutting\BatePapo.CrossCutting.csproj" />
+  </ItemGroup>
+
+</Project>

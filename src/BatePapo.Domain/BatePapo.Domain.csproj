@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CommandHandlers\CommandHandler.cs~RFe7b1a20.TMP" />
+    <None Remove="Commands\CustomerCommand.cs~RFe441960.TMP" />
+    <None Remove="Commands\CustomerCommand.cs~RFe4ab5a3.TMP" />
+    <None Remove="Commands\CustomerCommand.cs~RFe4ed5ba.TMP" />
+    <None Remove="Commands\CustomerCommand.cs~RFe748ffe.TMP" />
+    <None Remove="Commands\RegisterNewCustomerCommand.cs~RFe6e2088.TMP" />
+    <None Remove="Commands\UpdateCustomerCommand.cs~RFe772ba8.TMP" />
+    <None Remove="Events\CustomerRegisteredEvent.cs~RFf63bec4.TMP" />
+    <None Remove="Interfaces\ICustomerRepository.cs~RF136f9a07.TMP" />
+    <None Remove="Validations\UpdateCustomerCommandValidation.cs~RFe6774d4.TMP" />
+    <None Remove="Validations\UpdateCustomerCommandValidation.cs~RFe67d861.TMP" />
+    <None Remove="Validations\UpdateCustomerCommandValidation.cs~RFf98e0e1.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="9.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BatePapo.CrossCutting\BatePapo.CrossCutting.csproj" />
+    <ProjectReference Include="..\BatePapo.DomainCore\BatePapo.DomainCore.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Mappings\AdressMapping.cs~RF135bea2c.TMP" />
+    <None Remove="Mappings\StoredEventMap.cs~RF14bc4c7f.TMP" />
+    <None Remove="Mappings\StoredEventMap.cs~RF1c917f20.TMP" />
+    <None Remove="Mappings\StoredEventMap.cs~RFeb09d68.TMP" />
+    <None Remove="Mappings\StoredEventMap.cs~RFeb197b6.TMP" />
+    <None Remove="Repository\CustomerRepository.cs~RF12ead784.TMP" />
+    <None Remove="UoW\UnitOfWork.cs~RF1af00d09.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BatePapo.Domain\BatePapo.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
